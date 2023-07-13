@@ -2,7 +2,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../images/deji.jpeg";
-import Nav from "../nav/Nav";
+import Nav from "../nav/Nav.jsx";
 
 const Navbar = () => {
   return (
