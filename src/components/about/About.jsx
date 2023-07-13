@@ -4,6 +4,7 @@ import React from "react";
 import "./about.css";
 import logo from "../../images/ayodeji-logo.png";
 import ScrollReveal from "scrollreveal";
+import Nav from "../nav/nav";
 
 ScrollReveal({
   reset: true,
@@ -44,6 +45,7 @@ const About = () => {
           Read More
         </a>
       </div>
+      <Nav />
     </section>
   );
 };
