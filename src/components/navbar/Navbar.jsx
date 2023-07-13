@@ -2,7 +2,6 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../images/deji.jpeg";
-import Nav from "../nav/nav";
 
 const Navbar = () => {
   return (
@@ -11,7 +10,6 @@ const Navbar = () => {
         <img src={logo} alt="deji" className="img" />
         Portfo<span>lio</span>{" "}
       </a>
-      <Nav />
     </header>
   );
 };
