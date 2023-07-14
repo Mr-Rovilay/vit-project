@@ -61,6 +61,8 @@ footer {
 }
 
 .footer-iconTop a {
+  position: relative;
+  bottom: 89px;
   display: inline-flex;
   justify-content: center;
   align-items: center;

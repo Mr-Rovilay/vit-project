@@ -98,15 +98,25 @@ hr {
   .home {
     flex-direction: column;
   }
-  .hone-content h3 {
+  .home-content h3 {
     font-size: 2.6rem;
+    text-align: center;
   }
   .home-content h1 {
     font-size: 5rem;
+    text-align: center;
   }
   .home-img img {
     width: 70vw;
     margin-top: 4rem;
+    object-fit: cover;
+  }
+
+  .heading {
+    margin-left: 93px;
+  }
+  .about-content > h3 {
+    margin-left: 83px;
   }
   .about {
     flex-direction: column-reverse;
@@ -114,6 +124,7 @@ hr {
   .about img {
     width: 70vw;
     margin-top: 4rem;
+    object-fit: cover;
   }
 
   .portfolio {
